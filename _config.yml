@@ -1,0 +1,10 @@
+title: Emacsair
+author: Jonas Bernoulli
+email: jonas@bernoul.li
+url: https://emacsair.me
+
+baseurl: ""
+permalink: /:year/:month/:day/:title/index.html
+markdown: kramdown
+exclude:
+  - Makefile

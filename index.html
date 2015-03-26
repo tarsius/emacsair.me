@@ -1,0 +1,15 @@
+---
+layout: default
+---
+<section>
+  <ul class="post-list">
+    {% for post in site.posts %}
+    <li>
+      <span class="post-meta">{{ post.date | date: "%-d. %B %Y" }}</span>
+      <h2>
+        <a class="post-link" href="{{ post.url | remove: '/index.html' }}">{{ post.title }}</a>
+      </h2>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
