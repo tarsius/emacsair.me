@@ -65,12 +65,6 @@ epkg RET`.  Right now Epkg unfortunately doesn't work with the latest
 not made it into a release yet.  Installation and usage instructions
 can be found in [the manual][epkg-manual].
 
-***Important temporary notice***: Before installing `epkg` from Melpa
-make sure that the version you'll installing is `20160416.*`.  If that
-is not the case then use `M-x package-refresh-contents RET` before
-trying again.  If you install an older snapshot, then you end up with
-a broken pre-release.
-
 <img src="https://emacsmirror.net/epkg.png">
 
 <br/><br/>
