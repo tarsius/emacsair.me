@@ -63,13 +63,14 @@ submodules.
 
 I have been doing this manually for years, and enjoyed the additional
 control I gained from not using a package manager.  Of course I used
-existing tools to make this a bit easier.  `epkg` (which I released a
-few weeks ago) helped determining a package's upstream url and its
-dependencies.  Magit made it possible to update a package by pulling
-inside its repository, and to conveniently inspect the changes before
-actually doing so.  `auto-compile` made sure I did not continue to use
-outdated byte-compiled files in case I forgot to recompile after an
-update.  And `use-package` helped managing my configuration.
+existing tools to make this a bit easier.  `epkg` (which
+I [released][20160416] a few weeks ago) helped determining a package's
+upstream url and its dependencies.  Magit made it possible to update a
+package by pulling inside its repository, and to conveniently inspect
+the changes before actually doing so.  `auto-compile` made sure I did
+not continue to use outdated byte-compiled files in case I forgot to
+recompile after an update.  And `use-package` helped managing my
+configuration.
 
 So the features that were missing and which I had to perform by hand
 were very few and `borg` only implements those.  For the other
@@ -157,6 +158,8 @@ Borg could be used to create a "starter-git" (typo intended) of sorts,
 i.e. "the Emacs collective".  Configuration sets, what Spacemacs for
 example calls "layers", could be provided as branches.  But that has
 to wait until the above issue has been fully addressed.
+
+[20160416]:       /2016/04/16/re-introducing-the-emacsmirror
 
 [repo]:           https://gitlab.com/tarsius/borg
 [manual]:         https://emacsmirror.net/manual/borg 
