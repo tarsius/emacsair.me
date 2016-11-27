@@ -19,7 +19,7 @@ this is done by mirroring the upstream Git repository, but if upstream
 uses something else, then the mirror nevertheless makes the package
 available as a Git repository.
 
-<img src="https://emacsmirror.net/emacsmirror.png">
+<img src="https://emacsmirror.net/assets/emacsmirror.png">
 
 One primary purpose of the Emacsmirror is to provide a comprehensive
 list of available Emacs packages, including packages which have gone
@@ -65,7 +65,7 @@ epkg RET`.  Right now Epkg unfortunately doesn't work with the latest
 not made it into a release yet.  Installation and usage instructions
 can be found in [the manual][epkg-manual].
 
-<img src="https://emacsmirror.net/epkg.png">
+<img src="https://emacsmirror.net/assets/epkg.png">
 
 <br/><br/>
 
@@ -78,13 +78,10 @@ by    [David Bygott](https://www.flickr.com/photos/davidbygott).*
 [Emacsmirror]:    https://github.com/emacsmirror
 [Emacsattic]:     https://github.com/emacsattic
 [Emacsorphanage]: https://github.com/emacsorphanage
-[`epkgs`]:        https://github.com/emacsmirror/epkgs
 [epkgs]:          https://github.com/emacsmirror/epkgs
 [issues]:         https://github.com/emacsmirror/p/issues/new
-[`epkg.el`]:      https://gitlab.com/tarsius/epkg
-[`borg.el`]:      https://gitlab.com/tarsius/borg
-[not-mirror]:     /stats/compare.html#orgheadline21
-[not-melpa]:      /stats/compare.html#orgheadline26
+[`epkg.el`]:      https://gitlab.com/emacscollective/epkg
+[`borg.el`]:      https://gitlab.com/emacscollective/borg
 [epkg-manual]:    https://emacsmirror.net/manual/epkg
 
 [Emacs]: https://www.gnu.org/software/emacs/emacs.html
