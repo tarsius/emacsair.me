@@ -80,8 +80,8 @@ by    [David Bygott](https://www.flickr.com/photos/davidbygott).*
 [Emacsorphanage]: https://github.com/emacsorphanage
 [epkgs]:          https://github.com/emacsmirror/epkgs
 [issues]:         https://github.com/emacsmirror/p/issues/new
-[`epkg.el`]:      https://gitlab.com/emacscollective/epkg
-[`borg.el`]:      https://gitlab.com/emacscollective/borg
+[`epkg.el`]:      https://github.com/emacscollective/epkg
+[`borg.el`]:      https://github.com/emacscollective/borg
 [epkg-manual]:    https://emacsmirror.net/manual/epkg
 
 [Emacs]: https://www.gnu.org/software/emacs/emacs.html

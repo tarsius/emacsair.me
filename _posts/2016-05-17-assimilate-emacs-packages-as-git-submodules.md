@@ -161,10 +161,10 @@ to wait until the above issue has been fully addressed.
 
 [20160416]:       /2016/04/16/re-introducing-the-emacsmirror
 
-[repo]:           https://gitlab.com/emacscollective/borg
+[repo]:           https://github.com/emacscollective/borg
 [manual]:         https://emacsmirror.net/manual/borg 
 
 [`auto-compile`]: https://github.com/tarsius/auto-compile
-[`epkg`]:         https://gitlab.com/emacscollective/epkg
+[`epkg`]:         https://github.com/emacscollective/epkg
 [`use-package`]:  https://github.com/jwiegley/use-package
 [magit]:          https://github.com/magit/magit
