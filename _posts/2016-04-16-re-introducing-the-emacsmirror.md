@@ -57,7 +57,10 @@ For more information about the Emacsmirror visit its
 The [`epkg.el`] package provides a user interface for browsing the
 [Emacsmirror package database][epkgs].  It is very similar to the
 interface provided by `package.el`, but there is more information and
-some goodies.  But Epkg isn't a package manager.
+some goodies.
+
+Epkg itself is not a package manager, but the closely
+related [Borg][borg-post] package manager makes use of it.
 
 `epkg.el` can be installed from Melpa using `M-x install-package RET
 epkg RET`.  Right now Epkg unfortunately doesn't work with the latest
@@ -81,8 +84,10 @@ by    [David Bygott](https://www.flickr.com/photos/davidbygott).*
 [epkgs]:          https://github.com/emacsmirror/epkgs
 [issues]:         https://github.com/emacsmirror/p/issues/new
 [`epkg.el`]:      https://github.com/emacscollective/epkg
-[`borg.el`]:      https://github.com/emacscollective/borg
 [epkg-manual]:    https://emacsmirror.net/manual/epkg
+
+[borg-post]:      https://emacsair.me/2016/05/17/assimilate-emacs-packages-as-git-submodules
+[`borg.el`]:      https://github.com/emacscollective/borg
 
 [Emacs]: https://www.gnu.org/software/emacs/emacs.html
 [Git]:   https://git-scm.com
