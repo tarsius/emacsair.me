@@ -61,10 +61,15 @@ header h1 {
 header h1 a img {
   vertical-align: -14px;
   margin-right: -6px;
+  box-shadow: none;
 }
 
 header h4 {
   display: inline;
+}
+
+img {
+  box-shadow: 2px 2px 15px #93a1a1;
 }
 
 .post-list {
