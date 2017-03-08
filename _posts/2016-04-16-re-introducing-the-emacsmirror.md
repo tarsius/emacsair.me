@@ -22,12 +22,12 @@ available as a Git repository.
 <img src="https://emacsmirror.net/assets/emacsmirror.png">
 
 One primary purpose of the Emacsmirror is to provide a comprehensive
-list of available Emacs packages, including packages which have gone
+list of available Emacs packages, including packages that have gone
 out of fashion (but might later prove to be useful still).
 
 Older efforts attempting to provide a comprehensive list of available
 packages, such as the [Emacs Lisp List][ell], over time collected an
-impressive list of dead links to packages which were no longer
+impressive list of dead links to packages that were no longer
 available anywhere.
 
 With the Emacsmirror this won't happen.  If a package's upstream
@@ -63,10 +63,11 @@ Epkg itself is not a package manager, but the closely
 related [Borg][borg-post] package manager makes use of it.
 
 `epkg.el` can be installed from Melpa using `M-x install-package RET
-epkg RET`.  Right now Epkg unfortunately doesn't work with the latest
-(or any) Emacs release, because it depends on some changes that have
-not made it into a release yet.  Installation and usage instructions
-can be found in [the manual][epkg-manual].
+epkg RET`.  ~~Right now Epkg unfortunately doesn't work with the
+latest (or any) Emacs release, because it depends on some changes that
+have not made it into a release yet.~~ [Update: Epkg requires Emacs
+v25.1.]  Installation and usage instructions can be found
+in [the manual][epkg-manual].
 
 <img src="https://emacsmirror.net/assets/epkg.png">
 
