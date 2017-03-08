@@ -145,8 +145,10 @@ submodule` does not support that and so you have to do it manually.
 
 I intend to fork `git submodule` and implement support for recording
 and setting up additional remotes, as well as some other features
-which would be very useful.  I will then also try to get those changes
-merged into Git.  Until I have implemented these features, I can only
+which would be very useful.  [*Update:* I haven't improved
+`git-submodule` yet.  But I have implemented a minimal viable version
+in Epkg itself.]  I will then also try to get those changes merged
+into Git.  Until I have implemented these features, I can only
 recommend Borg for users who are already familiar with submodules.
 
 *Despite these shortcomings I am making a preview release of Borg
@@ -157,7 +159,9 @@ outstanding issues before the the first stable release.*
 Borg could be used to create a "starter-git" (typo intended) of sorts,
 i.e. "the Emacs collective".  Configuration sets, what Spacemacs for
 example calls "layers", could be provided as branches.  But that has
-to wait until the above issue has been fully addressed.
+to wait until the above issue has been fully addressed. [*Update:*
+Even though those issues have not been fully addressed yet, I have
+created such a starter-git, named [`emacs.g`].]
 
 [20160416]:       /2016/04/16/re-introducing-the-emacsmirror
 
@@ -165,6 +169,7 @@ to wait until the above issue has been fully addressed.
 [manual]:         https://emacsmirror.net/manual/borg 
 
 [`auto-compile`]: https://github.com/tarsius/auto-compile
+[`emacs.g`]:      https://github.com/emacscollective/emacs.g
 [`epkg`]:         https://github.com/emacscollective/epkg
 [`use-package`]:  https://github.com/jwiegley/use-package
 [magit]:          https://github.com/magit/magit
