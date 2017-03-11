@@ -39,11 +39,11 @@ build:
 serve:
 	@jekyll serve -P $(PORT)
 
-preview:
+preview: clean build
 	@echo "Uploading to $(PREVIEW_BUCKET)..."
 	@aws s3 sync $(SRC) $(PREVIEW_BUCKET)$(DST) --delete $(SYNC)
 
-publish:
+publish: clean build
 	@echo "Uploading to $(PUBLISH_BUCKET)..."
 	@aws s3 sync $(SRC) $(PUBLISH_BUCKET)$(DST) --delete $(SYNC)
 
