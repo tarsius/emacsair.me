@@ -10,6 +10,7 @@ PREVIEW_S3_URL ?= http://preview.$(DOMAIN).$(S3_DOMAIN)
 
 SRC   = _site
 SYNC  = # everything
+PORT ?= 4000
 
 ## Usage #############################################################
 
@@ -36,7 +37,7 @@ build:
 	@jekyll build
 
 serve:
-	@jekyll serve
+	@jekyll serve -P $(PORT)
 
 preview:
 	@echo "Uploading to $(PREVIEW_BUCKET)..."
