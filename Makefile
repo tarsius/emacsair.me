@@ -37,7 +37,7 @@ build:
 	@jekyll build
 
 serve:
-	@jekyll serve -P $(PORT)
+	@jekyll serve --drafts -P $(PORT)
 
 preview: clean build
 	@if test $$(git symbolic-ref --short HEAD) = master; \
