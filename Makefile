@@ -40,11 +40,15 @@ serve:
 	@jekyll serve -P $(PORT)
 
 preview: clean build
-	@echo "Uploading to $(PREVIEW_BUCKET)..."
+	@if test $$(git symbolic-ref --short HEAD) = master; \
+	then echo "Uploading to $(PREVIEW_BUCKET)..."; \
+	else echo "ERROR: Only master can be previewed"; exit 1; fi
 	@aws s3 sync $(SRC) $(PREVIEW_BUCKET)$(DST) --delete $(SYNC)
 
 publish: clean build
-	@echo "Uploading to $(PUBLISH_BUCKET)..."
+	@if test $$(git symbolic-ref --short HEAD) = master; \
+	then echo "Uploading to $(PUBLISH_BUCKET)..."; \
+	else echo "ERROR: Only master can be published"; exit 1; fi
 	@aws s3 sync $(SRC) $(PUBLISH_BUCKET)$(DST) --delete $(SYNC)
 
 clean:
