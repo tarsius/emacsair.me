@@ -99,6 +99,17 @@ code {
   background-color: #eee8d5;
 }
 
+/* Used for key bindings */
+i {
+  background-color: #eee8d5 #93a1a1;
+  border-color: #7B6000;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 2px;
+  padding: 0px 5px 1px 5px;
+  box-shadow: 1px 1px 5px #93a1a1;
+}
+
 code {
   padding: 1px 5px;
 }
