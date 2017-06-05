@@ -63,6 +63,17 @@ header h4 {
   display: inline;
 }
 
+div#prelude {
+  background-color: #eee8d5;
+  padding: 10px;
+  box-shadow: 1px 1px 15px #93a1a1;
+}
+
+div#prelude h3:first-of-type {
+  margin-top: 20px;
+  padding-top: 0px;
+}
+
 img {
   box-shadow: 2px 2px 15px #93a1a1;
 }
