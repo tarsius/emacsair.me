@@ -14,8 +14,7 @@ Please consider [supporting](https://magit.vc/donations)
 my work on [Magit](https://magit.vc).
 
 I also maintain
-[some](https://github.com/tarsius?tab=repositories&type=source)
-[other](https://gitlab.com/users/tarsius/projects)
+[some other](https://github.com/tarsius?tab=repositories&type=source)
 Emacs packages and the [Emacsmirror](https://emacsmirror.net).
 
 <pre>
