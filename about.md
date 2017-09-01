@@ -4,11 +4,11 @@ permalink: /about/
 title: About
 ---
 
-<i>
+<emph>
   Add a dab of lavender to milk,<br>
   leave town with an orange,<br>
   and pretend you're laughing at it.
-</i>
+</emph>
 
 Please consider [supporting](https://magit.vc/donations)
 my work on [Magit](https://magit.vc).
