@@ -7,7 +7,7 @@ categories: [magit, magit-campaign]
 
 [a-visual]:     /2017/09/01/magit-walk-through#start
 [articles]:     /2017/09/01/campaign-articles#start
-[campaign]:     https://www.kickstarter.com/projects/1681258897/its-magit-the-magical-git-client
+[campaign]:     https://www.kickstarter.com/projects/1681258897/its-magit-the-magical-git-client?ref=a4ifug
 [ncurses]:      https://en.wikipedia.org/wiki/Ncurses
 
 [Atomatigit]:   https://github.com/diiq/atomatigit#atomatigit

@@ -12,7 +12,7 @@ or more of these articles.
 [a-nonemacs]:   /2017/09/01/magit-for-non-emacs-users
 [a-why]:        /2017/09/01/why-support-magit
 [articles]:     /2017/09/01/campaign-articles
-[campaign]:     https://www.kickstarter.com/projects/1681258897/its-magit-the-magical-git-client
+[campaign]:     https://www.kickstarter.com/projects/1681258897/its-magit-the-magical-git-client?ref=a4ifug
 
 [annou]:        https://emacsair.me
 [hn]:           https://example.com

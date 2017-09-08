@@ -14,7 +14,7 @@ categories: [magit, magit-campaign]
 [a-visual]:     /2017/09/01/magit-walk-through#start
 [a-magical]:    /2017/09/01/the-magical-git-interface#start
 [a-nonemacs]:   /2017/09/01/magit-for-non-emacs-users#start
-[campaign]:     https://www.kickstarter.com/projects/1681258897/its-magit-the-magical-git-client
+[campaign]:     https://www.kickstarter.com/projects/1681258897/its-magit-the-magical-git-client?ref=a4ifug
 
 <div id="prelude" markdown="1">
 {% markdown campaign-prelude-part1.md %}

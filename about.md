@@ -10,8 +10,8 @@ title: About
   and pretend you're laughing at it.
 </emph>
 
-Please consider [supporting](https://magit.vc/donations)
-my work on [Magit](https://magit.vc).
+Please consider supporting my work on [Magit](https://magit.vc)
+by backing the [fundraising campaign](https://www.kickstarter.com/projects/1681258897/its-magit-the-magical-git-client?ref=a4ifug).
 
 I also maintain
 [some other](https://github.com/tarsius?tab=repositories&type=source)

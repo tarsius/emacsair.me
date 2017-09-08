@@ -1,4 +1,4 @@
-[campaign]:     https://www.kickstarter.com/projects/1681258897/its-magit-the-magical-git-client
+[campaign]:     https://www.kickstarter.com/projects/1681258897/its-magit-the-magical-git-client?ref=a4ifug
 
 ### The crowd-funding campaign
 
