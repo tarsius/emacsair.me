@@ -4,18 +4,29 @@ permalink: /about/
 title: About
 ---
 
-<emph>
-  Add a dab of lavender to milk,<br>
-  leave town with an orange,<br>
-  and pretend you're laughing at it.
-</emph>
+I maintain [Magit], the [Emacsmirror] and the [Emacscollective].
 
-Please consider supporting my work on [Magit](https://magit.vc)
-by backing the [fundraising campaign](https://www.kickstarter.com/projects/1681258897/its-magit-the-magical-git-client?ref=a4ifug).
+Please consider supporting my work on Librapay.
 
-I also maintain
-[some other](https://github.com/tarsius?tab=repositories&type=source)
-Emacs packages and the [Emacsmirror](https://emacsmirror.net).
+<table>
+  <tr>
+    <td>tarsius</td>
+    <td>magit</td>
+    <td>emacsmirror</td>
+    <td>emacscollective</td>
+  </tr>
+  <tr>
+    <td><script src="https://liberapay.com/tarsius/widgets/receiving.js"></script></td>
+    <td><script src="https://liberapay.com/magit/widgets/receiving.js"></script></td>
+    <td><script src="https://liberapay.com/emacsmirror/widgets/receiving.js"></script></td>
+    <td><script src="https://liberapay.com/emacscollective/widgets/receiving.js"></script></td>
+  </tr>
+</table>
+<br>
+  
+[Magit]:           https://magit.vc
+[Emacsmirror]:     https://emacsmirror.net
+[Emacscollective]: https://github.com/emacscollective
 
 <pre>
 -----BEGIN PGP PUBLIC KEY BLOCK-----
