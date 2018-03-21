@@ -21,6 +21,7 @@ help:
 	$(info make serve          - run a local jekyll server)
 	$(info make preview        - upload to preview site)
 	$(info make publish        - upload to production site)
+	$(info make publish-readme - upload readme screenshots)
 	$(info make clean          - remove build directory)
 	$(info make ci-install     - install required tools)
 	$(info make ci-version     - print version information)
@@ -53,6 +54,10 @@ publish: clean build
 	@aws s3 sync $(SRC) $(PUBLISH_BUCKET)$(DST) --delete $(SYNC)
 	@aws cloudfront create-invalidation \
 	--distribution-id $(CFRONT_DIST) --paths "/*" > /dev/null
+
+publish-readme:
+	@aws s3 sync assets/readme s3://readme.$(DOMAIN) \
+	--cache-control no-cache --delete
 
 clean:
 	@echo "Cleaning..."
