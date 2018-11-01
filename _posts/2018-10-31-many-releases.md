@@ -39,7 +39,7 @@ extension to `magit`.
   GraphQL was designed around the idea that you should be able to "ask
   for what you need and get exactly that".  Unfortunately this does not
   cover the "look, if I persist, then you are going to hand me over all
-  the data anyway, so just caught it up already", which is what Forge
+  the data anyway, so just cough it up already", which is what Forge
   needs.
 
   `ghub--graphql-vacuum` provides a way to unpaginate all cursors in the
@@ -79,7 +79,7 @@ extension to `magit`.
 
 - Add new `ghub-repository-id` function.  This function works for all
   supported forges and always returns a string, even for less
-  successful forges that can still get way with using integers as ids.
+  successful forges that can still get away with using integers as ids.
 
 - Add new `ghub-graphql-rate-limit` function.
 
@@ -141,10 +141,10 @@ adjust `epkg`.
 
   This makes it easier and safer to improve the respective
   functionality iteratively and to create configurations that are not
-  based on the Emacs.d collective.
+  based on the Emacs.g collective.
 
-- The new user configuration files ``/.emacs.d/etc/borg/config.el` and
-  ``/.emacs.d/etc/borg/config.mk` are loaded by `borg-build` and `make` if
+- The new user configuration files `/.emacs.d/etc/borg/config.el` and
+  `/.emacs.d/etc/borg/config.mk` are loaded by `borg-build` and `make` if
   they exist.  These files are primarily intended to set the variables
   `borg-emacs-argument` (which see) and `EMACS_ARGUMENTS`.  The latter can
   also be used to set `EMACS` and/or to define new make targets.
