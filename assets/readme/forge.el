@@ -2,7 +2,6 @@
 (load-file "github-readme.el")
 
 (frameshot-setup (append `((name   . "forge-status")
-			   (output . ,default-directory)
 			   (height . 666))
 			 frameshot-config-github-readme))
 

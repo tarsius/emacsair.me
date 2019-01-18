@@ -9,7 +9,8 @@
 	      (opacity . 60)
 	      (sigma   . 7)
 	      (x       . 3)
-	      (y       . 4)))))
+	      (y       . 4)))
+   (output . ,default-directory)))
 
 (load-file "moody-init.el")
 (find-file "moody-init.el")
