@@ -6,23 +6,8 @@ title: About
 
 I maintain [Magit], the [Emacsmirror] and the [Emacscollective].
 
-Please consider supporting my work on Librapay.
-
-<table>
-  <tr>
-    <td>tarsius</td>
-    <td>magit</td>
-    <td>emacsmirror</td>
-    <td>emacscollective</td>
-  </tr>
-  <tr>
-    <td><script src="https://liberapay.com/tarsius/widgets/receiving.js"></script></td>
-    <td><script src="https://liberapay.com/magit/widgets/receiving.js"></script></td>
-    <td><script src="https://liberapay.com/emacsmirror/widgets/receiving.js"></script></td>
-    <td><script src="https://liberapay.com/emacscollective/widgets/receiving.js"></script></td>
-  </tr>
-</table>
-<br>
+Please consider supporting my work using one of the options listed
+on [https://magit.vc/donate](https://magit.vc/donate).
   
 [Magit]:           https://magit.vc
 [Emacsmirror]:     https://emacsmirror.net
