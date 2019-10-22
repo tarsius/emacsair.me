@@ -12,13 +12,6 @@ categories: [magit, magit-campaign]
 [solarized]:    https://github.com/bbatsov/solarized-emacs
 [zenburn]:      https://github.com/bbatsov/zenburn-emacs
 
-<div id="prelude" markdown="1">
-{% markdown campaign-prelude-part1.md %}
-{% markdown campaign-prelude-part2.md %}
-{% markdown campaign-prelude-part3.md %}
-</div>
-{% markdown campaign-prelude-part4.md %}
-
 # A walk through the Magit interface
 
 This article demonstrates some of Magit's most essential features in

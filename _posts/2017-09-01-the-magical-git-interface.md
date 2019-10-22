@@ -23,13 +23,6 @@ categories: [magit, magit-campaign]
 [vimagit]:    https://github.com/jreybert/vimagit
 [walk]:       https://magit.vc/screenshots
 
-<div id="prelude" markdown="1">
-{% markdown campaign-prelude-part1.md %}
-{% markdown campaign-prelude-part2.md %}
-{% markdown campaign-prelude-part3.md %}
-</div>
-{% markdown campaign-prelude-part4.md %}
-
 # Magit, the magical Git interface
 
 ### Basic similarities and differences to other interfaces

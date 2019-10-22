@@ -15,13 +15,6 @@ categories: [magit, magit-campaign]
 [SublimeGit]:   https://sublimegit.readthedocs.io
 [Vimagit]:      https://github.com/jreybert/vimagit#vimagit
 
-<div id="prelude" markdown="1">
-{% markdown campaign-prelude-part1.md %}
-{% markdown campaign-prelude-part2.md %}
-{% markdown campaign-prelude-part3.md %}
-</div>
-{% markdown campaign-prelude-part4.md %}
-
 # Magit for non-Emacs users
 
 Unfortunately most potential users are not aware of Magit.  Others

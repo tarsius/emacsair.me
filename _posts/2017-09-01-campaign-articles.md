@@ -16,12 +16,6 @@ categories: [magit, magit-campaign]
 [a-nonemacs]:   /2017/09/01/magit-for-non-emacs-users#start
 [campaign]:     https://www.kickstarter.com/projects/1681258897/its-magit-the-magical-git-client?ref=a4ifug
 
-<div id="prelude" markdown="1">
-{% markdown campaign-prelude-part1.md %}
-{% markdown campaign-prelude-part2.md %}
-</div>
-{% markdown campaign-prelude-part4.md %}
-
 # Articles about Magit and the fundraiser
 
 On the occasion of the [Kickstarter campaign][campaign], I have written
