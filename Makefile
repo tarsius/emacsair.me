@@ -13,6 +13,8 @@ SRC   = _site
 SYNC  = # everything
 PORT ?= 4000
 
+FONTS = Noto+Sans:400,400i,700,700i|Noto+Serif:400,400i,700,700i
+
 ## Usage #############################################################
 
 help:
@@ -22,6 +24,7 @@ help:
 	$(info make preview        - upload to preview site)
 	$(info make publish        - upload to production site)
 	$(info make publish-readme - upload readme screenshots)
+	$(info make update-fonts   - download updated fonts)
 	$(info make clean          - remove build directory)
 	$(info make ci-install     - install required tools)
 	$(info make ci-version     - print version information)
@@ -58,6 +61,12 @@ publish: clean build
 publish-readme:
 	@aws s3 sync assets/readme s3://readme.$(DOMAIN) \
 	--cache-control no-cache --delete
+
+update-fonts:
+	@mkdir -p assets/fonts
+	@cd assets/fonts; google-font-download -o ../font.css -f woff2,woff -u \
+	"https://fonts.googleapis.com/css?family=$(FONTS)"
+	@cd assets; sed -i -e "s:url('Noto:url('/assets/fonts/Noto:" font.css
 
 clean:
 	@echo "Cleaning..."
