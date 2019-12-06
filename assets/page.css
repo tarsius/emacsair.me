@@ -76,6 +76,8 @@ div#prelude h3:first-of-type {
 
 img {
   box-shadow: 2px 2px 15px #93a1a1;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 img#magit-logo {
@@ -137,6 +139,51 @@ pre > code {
 figure {
   margin: 0;
   padding: 0;
+}
+
+div#donate p:nth-child(1) {
+  text-align: justify;
+}
+
+div#donate {
+  box-shadow: 2px 2px 15px #93a1a1;
+  background-color: #eee8d5;
+  display: block;
+  padding: 15px 20px 15px 20px;
+  margin: 0px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  padding-top: 30px;
+  padding-bottom: 40px;
+  position: relative;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+div#donate div:nth-child(1) a, a.dotted {
+  text-decoration-style: dotted;
+}
+
+div#donate div:nth-child(2) {
+  margin-top: 20px;
+  text-align: center;
+}
+
+div#donate div:nth-child(3) {
+  margin-top: 20px;
+  margin-bottom: 35px;
+  text-align: center;
+}
+
+div#donate div:nth-child(3) img, img.donate {
+  box-shadow: unset;
+  height: 50px;
+  width: auto;
+}
+
+div#donate div:nth-child(3) {
+  text-align: center;
 }
 
 /* Code Highlighting Style for Pygments or Rouge */
