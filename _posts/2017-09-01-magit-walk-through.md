@@ -559,7 +559,7 @@ variant.  A branch's "push-remote" is somewhat similar to the
 is actually a Git feature, but not many Git users know about it because
 it is hardly documented.  To learn more about the "push-remote" and
 how it is different from the "upstream",
-see [this](https://magit.vc/manual/magit/The-two-remotes.html)
+see [this](https://magit.vc/manual/magit/The-Two-Remotes.html)
 
 ## Branching
 
