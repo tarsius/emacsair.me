@@ -4,14 +4,7 @@ permalink: /about/
 title: About
 ---
 
-I maintain [Magit], the [Emacsmirror] and the [Emacscollective].
-
-Please consider supporting my work using one of the options listed
-on [https://magit.vc/donate](https://magit.vc/donate).
-  
-[Magit]:           https://magit.vc
-[Emacsmirror]:     https://emacsmirror.net
-[Emacscollective]: https://github.com/emacscollective
+{% markdown donate-main.md %}
 
 <pre>
 -----BEGIN PGP PUBLIC KEY BLOCK-----
