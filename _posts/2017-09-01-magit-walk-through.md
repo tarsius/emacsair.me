@@ -582,4 +582,6 @@ In that popup you can see the values of some important Git variables
 concerning the current branch.  The values obviously can be changed
 using the shown keys.
 
+{% markdown donate-main.md %}
+
 <br><br>Footnotes:

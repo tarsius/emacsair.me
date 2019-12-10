@@ -213,4 +213,6 @@ something other than the thing under the cursor or if s/he wants to
 fine-tune the behavior using certain `git` arguments explicitly, then
 that is of course also possible.)
 
+{% markdown donate-main.md %}
+
 <br><br>
