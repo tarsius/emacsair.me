@@ -378,13 +378,13 @@ unstaging, but also when "otherwise applying changes".
 With Magit you can also discard, reverse, or apply, the file, files,
 hunk, hunks, or region at point using the exact same interface as
 described above.  For more information about these apply variants
-[consult](/manual/magit/Applying.html) the manual.
+[consult](https://magit.vc/manual/magit/Applying.html) the manual.
 
 ## Arguments missing from popups
 
 If you noticed that the diff popup lacked your favorite argument, then
 fear not.  It is easy to add arguments to an existing popup,
-as [described](/manual/magit-popup/Customizing-existing-popups.html) in
+as [described](https://magit.vc/manual/magit-popup/Customizing-Existing-Popups.html) in
 the manual.
 
 Some arguments are missing because they are not actually required.
