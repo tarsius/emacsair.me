@@ -145,7 +145,8 @@ div#donate p:nth-child(1) {
   text-align: justify;
 }
 
-div#donate {
+div#donate,
+div#donate-tiny{
   box-shadow: 2px 2px 15px #93a1a1;
   background-color: #eee8d5;
   display: block;
@@ -159,6 +160,10 @@ div#donate {
   font-size: 16px;
   line-height: 1.2;
   text-align: center;
+}
+
+div#donate-tiny{
+  padding-bottom: 10px;
 }
 
 div#donate div:nth-child(1) a, a.dotted {
@@ -184,6 +189,12 @@ div#donate div:nth-child(3) img, img.donate {
 
 div#donate div:nth-child(3) {
   text-align: center;
+}
+
+div#donate-tiny img {
+  box-shadow: unset;
+  height: 35px;
+  width: auto;
 }
 
 /* Code Highlighting Style for Pygments or Rouge */
