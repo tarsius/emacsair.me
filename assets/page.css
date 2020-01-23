@@ -55,6 +55,7 @@ header h1 {
 
 header h1 a img {
   vertical-align: -14px;
+  margin-bottom: 0px;
   margin-right: -6px;
   box-shadow: none;
 }
