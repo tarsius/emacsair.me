@@ -16,7 +16,7 @@ categories: [magit, magit-campaign]
 
 This article demonstrates some of Magit's most essential features in
 order to give you an impression of how the interface works.  It also
-hints at some of the design principals behind that interface.
+hints at some of the design principles behind that interface.
 
 But this is only the tip of the iceberg.  Magit is a complete
 interface to Git, which does not limit itself to the "most essential
