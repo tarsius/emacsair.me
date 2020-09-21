@@ -88,6 +88,12 @@ img#magit-logo {
   margin-right: auto;
 }
 
+img.icon {
+  box-shadow: unset;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 .post-list {
   margin-left: 0;
   padding-left: 0;
