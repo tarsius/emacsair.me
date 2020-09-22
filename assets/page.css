@@ -64,6 +64,14 @@ header h4 {
   display: inline;
 }
 
+details {
+  cursor: se-resize;
+}
+
+details[open] {
+  cursor: default;
+}
+
 div#prelude {
   background-color: #eee8d5;
   padding: 10px;
