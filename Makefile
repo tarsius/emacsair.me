@@ -1,17 +1,10 @@
 ## Configuration #####################################################
 
-DOMAIN         ?= emacsair.me
-PUBLIC         ?= https://$(DOMAIN)
-CFRONT_DIST    ?= E2AI8XS8J1IQIH
-PUBLISH_BUCKET ?= s3://$(DOMAIN)
-PREVIEW_BUCKET ?= s3://preview.$(DOMAIN)
-S3_DOMAIN      ?= s3-website.eu-central-1.amazonaws.com
-PUBLISH_S3_URL ?= http://$(DOMAIN).$(S3_DOMAIN)
-PREVIEW_S3_URL ?= http://preview.$(DOMAIN).$(S3_DOMAIN)
-
-SRC   = _site
-SYNC  = # everything
-PORT ?= 4000
+DOMAIN := $(notdir $(abspath $(dir $(lastword $(MAKEFILE_LIST)))))
+SRC     = _site
+DST     =
+SYNC    = # everything
+PORT   ?= 4000
 
 FONTS = Noto+Sans:400,400i,700,700i|Noto+Serif:400,400i,700,700i
 
@@ -21,7 +14,6 @@ help:
 	$(info )
 	$(info make build          - build using jekyll)
 	$(info make serve          - run a local jekyll server)
-	$(info make preview        - upload to preview site)
 	$(info make publish        - upload to production site)
 	$(info make publish-readme - upload readme screenshots)
 	$(info make update-fonts   - download updated fonts)
