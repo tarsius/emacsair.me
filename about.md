@@ -8,7 +8,7 @@ title: About
 
 <details>
 <summary>
-<img class="icon" src="/assets/img/key.svg"/>
+<img class="icon" src="/assets/icons/key.svg"/>
 <a href="https://keyoxide.org/7E108E46F316CBA0CE3C8D20FC61B7237C7155B7">
 7E108E46F316CBA0CE3C8D20FC61B7237C7155B7
 </a>
