@@ -8,6 +8,7 @@
 ;; Undo settings from `user-init-file'.
 (moody-replace-mode-line-buffer-identification 'reverse)
 (moody-replace-vc-mode 'reverse)
+(mode-line-debug-mode -1)
 
 (load-file "minions-init.el")
 (find-file "minions-init.el")
