@@ -62,6 +62,7 @@ header h1 a img {
 
 header h4 {
   display: inline;
+  font-size: small;
 }
 
 details {
