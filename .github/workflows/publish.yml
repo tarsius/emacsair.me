@@ -7,6 +7,8 @@ jobs:
     name: "Generate and distribute page"
     runs-on: ubuntu-latest
     steps:
+      - name: Install jekyll
+        uses: magit/actions/install-jekyll@main
       - name: Generate page
         uses: magit/actions/page-generate@main
       - name: Publish page
