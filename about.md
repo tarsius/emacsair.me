@@ -27,6 +27,7 @@ gpg --keyserver hkps://keys.openpgp.org \
   </ul>
 </details>
 
+<!--
 ## Colophon
 
 *I've mainly added this section so that I would have a place to lookup the
@@ -35,3 +36,4 @@ term "colophon" once there actually is anything interesting to say here.* ;)
 Currently this is maintained [here](https://github.com/tarsius/emacsair.me),
 uses [Jekyll](https://jekyllrb.com) and is published using CI/CD actions from
 all-in-one [action repository](https://github.com/magit/actions).
+-->
