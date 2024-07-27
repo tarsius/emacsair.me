@@ -6,5 +6,6 @@ url: https://emacsair.me
 baseurl: ""
 permalink: /:year/:month/:day/:title/index.html
 markdown: kramdown
+future: true
 exclude:
   - Makefile
