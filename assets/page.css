@@ -157,6 +157,10 @@ figure {
   padding: 0;
 }
 
+blockquote {
+  font-style: italic;
+}
+
 div#donate p:nth-child(1) {
   text-align: justify;
 }
