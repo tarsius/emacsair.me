@@ -1,11 +1,13 @@
 body {
   font-family: 'Noto Serif', serif;
   text-align: justify;
+  max-width: 700px;
+  margin: 50px;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-left: auto;
   background-color: #fdf6e3;
   color: #353025;
-  max-width: 700px;
-  margin: 40px;
-  margin-top: 0;
 }
 
 h1, h2, h3, h4 {
