@@ -42,9 +42,9 @@ serve:
 	@jekyll serve --drafts -P $(PORT)
 
 publish:
-	@if test $$(git symbolic-ref --short HEAD) = master; \
+	@if test $$(git symbolic-ref --short HEAD) = main; \
 	then echo "Uploading to $(PUBLISH_BUCKET)..."; \
-	else echo "ERROR: Only master can be published"; exit 1; fi
+	else echo "ERROR: Only main can be published"; exit 1; fi
 	@aws s3 sync $(SRC) $(PUBLISH_BUCKET)$(DST) --delete $(SYNC)
 	@aws cloudfront create-invalidation \
 	--distribution-id $(CFRONT_DIST) --paths "/*" > /dev/null

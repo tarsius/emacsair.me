@@ -1,19 +1,12 @@
-name: publish
+name: Publish
 on:
   workflow_dispatch:
   push:
-    branches: master
+    branches: main
 jobs:
-  manual:
-    name: "Generate and distribute page"
-    runs-on: ubuntu-latest
-    steps:
-      - name: Install jekyll
-        uses: magit/actions/install-jekyll@main
-      - name: Generate page
-        uses: magit/actions/page-generate@main
-      - name: Publish page
-        uses: magit/actions/page-publish@main
-        with:
-          key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          secret: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+  publish:
+    name: Publish
+    uses: emacscollective/workflows/.github/workflows/jekyll.yml@main
+    secrets:
+      aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+      aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
