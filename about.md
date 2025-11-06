@@ -4,7 +4,7 @@ permalink: /about/
 title: About
 ---
 
-{% markdown donate-main.md %}
+{% include donate-main.md %}
 
 <details>
   <summary>

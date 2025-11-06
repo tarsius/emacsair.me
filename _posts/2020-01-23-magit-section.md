@@ -47,4 +47,4 @@ And finally I plan to release Magit 3.0.0 in February.  The first
 Magit-Section release will happen at the same time and it will be
 named 3.0.0 too.
 
-{% markdown donate-tiny.md %}
+{% include donate-tiny.md %}

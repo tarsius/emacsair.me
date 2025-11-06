@@ -32,7 +32,7 @@ and [these blog posts][campain-articles].
 <br/><br/>***Comments on [Reddit](https://www.reddit.com/r/emacs/comments/ozfcj2)***
 ***and [Github](https://github.com/magit/magit/discussions/4468).***
 
-{% markdown donate-tiny.md %}
+{% include donate-tiny.md %}
 
 [NonGNU Elpa]:      https://elpa.nongnu.org
 [campain-articles]: https://emacsair.me/2017/09/01/campaign-articles

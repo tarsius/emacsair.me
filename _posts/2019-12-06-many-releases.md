@@ -125,4 +125,4 @@ I also performed some other maintenance tasks.
   experience many users are happy to donate, but need a few friendly
   nudges until they actually do, so:
 
-{% markdown donate-main.md %}
+{% include donate-main.md %}
