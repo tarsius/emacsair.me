@@ -7,7 +7,7 @@ categories: [magit, magit-campaign]
 
 [homepage]:     https://magit.vc
 [blogposts]:    https://magit.vc/blogs
-[manual]:       https://magit.vc/manual/magit/#Top
+[manual]:       https://docs.magit.vc/magit/#Top
 [quotes]:       https://magit.vc/quotes
 [screencasts]:  https://magit.vc/screencasts
 

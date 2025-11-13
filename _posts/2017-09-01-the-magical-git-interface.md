@@ -16,7 +16,7 @@ categories: [magit, magit-campaign]
 [hn]:         https://example.com
 [home]:       https://magit.vc
 [kick]:       https://kickstarter.com/
-[manual]:     https://magit.vc/manual/magit/#Top
+[manual]:     https://docs.magit.vc/magit/#Top
 [ncurses]:    https://en.wikipedia.org/wiki/Ncurses
 [quotes]:     https://magit.vc/quotes
 [sublimegit]: https://sublimegit.readthedocs.io/en/latest/index.html

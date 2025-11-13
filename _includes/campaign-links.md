@@ -20,7 +20,7 @@ or more of these articles.
 [homepage]:     https://magit.vc
 [about]:        https://magit.vc/about
 [blogposts]:    https://magit.vc/blogs
-[manual]:       https://magit.vc/manual/magit/#Top
+[manual]:       https://docs.magit.vc/magit/#Top
 [quotes]:       https://magit.vc/quotes
 [screencasts]:  https://magit.vc/screencasts
 [walk]:         https://magit.vc/screenshots

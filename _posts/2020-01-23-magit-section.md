@@ -11,7 +11,7 @@ excerpt: Magit-Section as now available as a stand-alone package.
 Magit-Section implements the main user interface of Magit — the
 collapsible sections that make up its buffers.  How to use these
 sections — from an end-user perspective — is documented in the [Magit
-manual](https://magit.vc/manual/magit/Sections.html#Sections).
+manual](https://docs.magit.vc/magit/Sections.html#Sections).
 
 I am now making Magit-Section available as a stand-alone package.  The
 `magit-section.el` library used to be distributed as part of the Magit
@@ -19,7 +19,7 @@ package and it still is maintained in the same repository, but now it
 can be used by other packages that have nothing to do with Magit,
 *without* having to depend on Magit.
 
-The new [Magit-Section](https://magit.vc/manual/magit-section) manual
+The new [Magit-Section](https://docs.magit.vc/magit-section) manual
 is intended for package developers.  A [Magit Section
 Tutorial](https://github.com/magit/magit/wiki/Magit-Section-Tutorial)
 is also available.  Unfortunately both documents are still far from
