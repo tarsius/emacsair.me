@@ -23,4 +23,4 @@ update-fonts:
 
 clean:
 	@echo "Cleaning..."
-	@rm -rf _site
+	@rm -rf _site .jekyll-cache
