@@ -1,11 +1,16 @@
 <div id="donate">
   <div>
 	Please consider making a donation to support my work <br> on
-	<a href="https://magit.vc">Magit</a>, the
+	<a href="https://magit.vc">Magit</a>,
+	<a href="https://github.com/magit/transient">Transient</a>,
+	<a href="https://github.com/magit/forge">Forge</a>,
+	<a href="https://github.com/melpa/package-build">Package-Build</a>,<br>
+	<a href="https://melpa.org">Melpa</a>,
 	<a href="https://emacsmirror.net">Emacsmirror</a> and
 	<a href="https://github.com/tarsius">my</a>
 	<a href="https://github.com/emacscollective">other</a>
-	<a href="https://github.com/magit">packages</a>.
+	<a href="https://github.com/magit">packages</a>.<br>
+    This is how I make a living.
   </div>
   <div>
     <em>Thank you! — Jonas Bernoulli</em>
