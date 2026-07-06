@@ -224,7 +224,7 @@ as `1.2.3.0.20260701.4`.  Because the former is greater (according to
 Considering the version strings at face value, doing so would be a
 *downgrade*.
 
-So start by modifying `package-archives` (as shown above) and *copying*
+So start by modifying `package-archives` (as shown above) and *moving*
 `~/.config/emacs/elpa/` to some other location, before exiting Emacs.
 Then restart Emacs and run `M-x package-refresh-contents`, followed by
 `M-x package-install-selected-packages`
